@@ -1,0 +1,10 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: example-service
+spec:
+  type: LoadBalancer
+  ports:
+  - name: http
+    protocol: TCP
+    port: 80
